@@ -241,6 +241,15 @@ article h2{
 	font-family:nyt-imperial,georgia,'times new roman',times,serif;
 }
 
+.story p{
+	font-size: .875rem;
+	line-height: 1.125rem;
+  font-weight: 400;
+	font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+	color: #666;
+	padding-top: 10px;
+}
+
 .story-row{
 	display: flex;
 	align-items: baseline;
@@ -249,6 +258,17 @@ article h2{
 .story_col{
 	width: 22%;
 	padding: 0 5px;
+}
+
+.story_col p{
+	font-family: nyt-franklin,arial,helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	font-weight: 300;
+	color: #000000;
+}
+.story_col span{
+	font-weight: bold;
 }
 
 .story-img{
