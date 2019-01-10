@@ -234,6 +234,13 @@ article p{
 	line-height: 1.8rem;
 }
 
+article h2{
+	font-size: 1.4rem;
+	margin-top: 25px;
+	font-weight: 700;
+	font-family:nyt-imperial,georgia,'times new roman',times,serif;
+}
+
 .story-row{
 	display: flex;
 	align-items: baseline;
