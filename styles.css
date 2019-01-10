@@ -97,4 +97,14 @@ padding: 10px;
 
 main {
     margin-top: 100px;
+		padding: 0 20px;
+}
+
+main h1{
+padding-left: 211px;
+font-style: italic;
+font-size: 34px;
+font-weight: 700;
+font-family: nyt-franklin,helvetica,arial,sans-serif;
+
 }
