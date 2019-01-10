@@ -396,3 +396,15 @@ article h2{
 	justify-content: space-evenly;
 }
 
+/* related-article */
+.related-article {
+	margin-bottom: 10px;
+}
+
+.related-article a {
+	display: flex;
+}
+
+.related-article img {
+	width: 20%;
+}
