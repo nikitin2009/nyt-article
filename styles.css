@@ -372,3 +372,16 @@ article h2{
 	justify-content: space-between;
 	width: 145px;
 }
+
+/* widgets */
+
+.widgets{
+	position: absolute;
+	top: 0px;
+	right: 75px;
+	width: 250px;
+}
+
+.widget{
+	padding-top: 1500px;
+}
