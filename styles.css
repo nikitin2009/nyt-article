@@ -67,6 +67,24 @@ header {
     padding: 10px 20px 0px;
 }
 
+.header_left button {
+	background-color: transparent;
+	border: none;
+	padding: 7px 10px;
+	margin-right: 15px;
+	border-radius: 3px;
+}
+
+.header_left button:hover {
+	background-color: #f7f7f7;
+}
+
+.header_left svg {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
 .header_left a{
 	color: #333;
 	font-size: 14.25px;
@@ -128,5 +146,5 @@ color: #888;
 .author{
 	margin-top: 25px;
 	font-size: 15px;
-	nyt-franklin,helvetica,arial,sans-serif;
+	font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
