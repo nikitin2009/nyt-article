@@ -59,6 +59,10 @@ a{
 	text-decoration: none;
 }
 
+p {
+	margin-bottom: 25px;
+}
+
 /* header */
 header {
     position: fixed;
@@ -70,7 +74,8 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    padding: 10px 20px 5px;
+		padding: 10px 20px 5px;
+		z-index: 9;
 }
 
 .header_left button {
@@ -273,4 +278,33 @@ article h2{
 
 .story-img{
 	width: 100%;
+}
+
+.story_footer {
+	position: relative;
+}
+
+.story_footer:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50px;
+	height: 1px;
+	background-color: #000;
+}
+
+.video-wrapper {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.video-wrapper iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
