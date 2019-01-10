@@ -63,6 +63,10 @@ p {
 	margin-bottom: 25px;
 }
 
+img {
+	max-width: 100%;
+}
+
 /* header */
 header {
     position: fixed;
@@ -294,10 +298,15 @@ article h2{
 	background-color: #000;
 }
 
+.video {
+	margin-bottom: 40px;
+}
+
 .video-wrapper {
   overflow: hidden;
   padding-top: 56.25%;
-  position: relative;
+	position: relative;
+	margin-bottom: 10px;
 }
 
 .video-wrapper iframe {
@@ -307,4 +316,18 @@ article h2{
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.video-description {
+	color: #666;
+	margin-bottom: 5px;
+}
+
+.video-description-small {
+	color: #888;
+	font-size: 0.8rem;
+}
+
+.figure-wide {
+	margin: 0 -25px 40px;
 }
