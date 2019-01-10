@@ -225,11 +225,25 @@ color: #888;
 
 article{
 	width: 80%;
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
 article p{
 	font-size: 1.2rem;
 	line-height: 1.8rem;
+}
+
+.story-row{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+.story_col{
+	width: 22%;
+	padding: 0 5px;
+}
+
+.story-img{
+	width: 100%;
 }
