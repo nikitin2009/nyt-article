@@ -123,6 +123,7 @@ main {
 	margin: 100px auto 0;
 	padding: 0 10px;
 	max-width: 1000px;
+
 }
 
 main h1{
@@ -167,6 +168,7 @@ color: #888;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 22px;
+	width: 80%;
 }
 .publish-date{
 	font-size: 13px;
@@ -186,4 +188,12 @@ color: #888;
 	align-items: center;
 	justify-content: center;
 	background-color: #ddd;
+}
+
+article{
+	width: 80%;
+}
+
+article p{
+	font-size: 19px;
 }
