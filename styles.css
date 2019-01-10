@@ -340,3 +340,35 @@ article h2{
 	margin: 0 auto 1em;
 	color: #999;
 }
+.comments-and-social {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.comments-and-social button{
+	font-size: .8125rem;
+    line-height: 1.125rem;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    border: 1px solid #326891;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    letter-spacing: .05em;
+    line-height: 1.5rem;
+    padding: 5px 0;
+    text-transform: uppercase;
+    width: 330px;
+    background-color: #6288a5;
+    -webkit-transition: background-color .6s ease;
+    transition: background-color .6s ease;
+}
+
+.share-container-bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 145px;
+}
