@@ -403,8 +403,31 @@ article h2{
 
 .related-article a {
 	display: flex;
+	align-items: center;
 }
 
 .related-article img {
-	width: 20%;
+	height: 70px;
+}
+
+.widget h3{
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-weight: 700;
+color: rgb(0, 0, 0);
+margin-top: 0px;
+margin-bottom: 15px;
+padding-bottom: 12px;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0.02em;
+border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.related-article a span{
+	font-family: nyt-cheltenham-small, georgia, "times new roman";
+padding-left: 15px;
+font-size: 14px;
+line-height: 17px;
+width: 100%;
+color: rgb(51, 51, 51);
 }
