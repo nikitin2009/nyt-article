@@ -423,6 +423,50 @@ letter-spacing: 0.02em;
 border-bottom: 1px solid rgb(226, 226, 226);
 }
 
+.widget h2{
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-weight: 700;
+color: rgb(0, 0, 0);
+margin-top: 0px;
+padding-bottom: 12px;
+font-size: 18px;
+letter-spacing: 0.02em;
+
+}
+
+.widget p{
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+margin-left: 0px;
+font-size: 0.8125rem;
+line-height: 1rem;
+color: rgb(102, 102, 102);
+width: 175px;
+text-align: justify;
+}
+
+.widget button{
+	color: rgb(255, 255, 255);
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 13px;
+text-transform: uppercase;
+width: 100%;
+height: 35px;
+background: rgb(98, 136, 165);
+border-width: 1px;
+border-style: solid;
+border-color: rgb(98, 136, 165);
+border-image: initial;
+border-radius: 4px;
+padding: 10px;
+margin: 0px;
+width: 175px;
+}
+
 .related-article a span{
 	font-family: nyt-cheltenham-small, georgia, "times new roman";
 padding-left: 15px;
