@@ -691,7 +691,7 @@ footer:before {
   width: 25%;
 }
 
-.footer_categories h3 {
+.footer_categories h3, .footer-aside h3{
   color: rgb(51, 51, 51);
   font-size: 0.875rem;
   font-weight: 700;
@@ -700,10 +700,45 @@ footer:before {
 }
 
 .footer_menu li {
-  font-size: 0.875rem;
-  margin-bottom: 7px;
+  font-size: 0.82rem;
+  margin-bottom: 12px;
 }
 
 .footer_main aside {
   width: 20%;
+}
+
+.footer-aside li{
+	color: rgb(0, 0, 0);
+display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+text-transform: capitalize;
+width: 150px;
+font-size:0.85rem;
+font-weight: 700;
+height: 25px;
+line-height: 15px;
+padding-bottom: 0px;
+text-decoration: none;
+}
+.footer-aside li.small{
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: nyt-franklin;
+	text-transform: capitalize;
+	width: 150px;
+	font-size: 11px;
+	font-weight: 500;
+	height: 23px;
+	line-height: 21px;
+	text-decoration: none;
+}
+
+.footer-aside hr{
+	border-top: 1px solid lightgray;
+	border-bottom: none;
+}
+
+.footer-aside-svg{
+	width: 10px;
 }
