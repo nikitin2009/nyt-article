@@ -597,3 +597,26 @@ article h2 {
 .single-related a {
   display: block;
 }
+
+.single-related a h3{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+}
+
+.mini-credits{
+	width: 100%;
+	text-align: right;
+	display: block;
+	font-size: 0.7rem;
+	line-height: 1.23rem;
+	color: #444;
+}
+.related-date{
+	font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 500;
+    font-size: .75rem;
+    line-height: 1.25rem;
+    letter-spacing: .3px;
+    color: #999;
+}
