@@ -575,7 +575,7 @@ article h2 {
   padding: 20px 0;
 }
 
-.space-cosmos h2 {
+.space-cosmos h2, .related-editor h2 {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.375rem;
@@ -619,4 +619,9 @@ article h2 {
     line-height: 1.25rem;
     letter-spacing: .3px;
     color: #999;
+}
+
+.related-editor{
+	border-top: 1px solid black;
+	padding: 20px 0;
 }
