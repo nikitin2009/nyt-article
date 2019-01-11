@@ -680,6 +680,7 @@ footer:before {
 
 .footer_main {
   display: flex;
+
 }
 
 .footer_categories {
@@ -706,25 +707,28 @@ footer:before {
 
 .footer_main aside {
   width: 20%;
+	border-left: 1px solid lightgray;
+	padding-left: 15px;
+
 }
 
 .footer-aside li{
 	color: rgb(0, 0, 0);
-display: inline-block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-text-transform: capitalize;
-width: 150px;
-font-size:0.85rem;
-font-weight: 700;
-height: 25px;
-line-height: 15px;
-padding-bottom: 0px;
-text-decoration: none;
+	display: inline-block;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	text-transform: capitalize;
+	width: 150px;
+	font-size:0.85rem;
+	font-weight: 700;
+	height: 25px;
+	line-height: 15px;
+	padding-bottom: 0px;
+	text-decoration: none;
 }
 .footer-aside li.small{
 	color: rgb(0, 0, 0);
 	display: inline-block;
-	font-family: nyt-franklin;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	text-transform: capitalize;
 	width: 150px;
 	font-size: 11px;
@@ -741,4 +745,21 @@ text-decoration: none;
 
 .footer-aside-svg{
 	width: 10px;
+}
+
+.footer-bottom{
+	border-top: 1px solid lightgray;
+	margin-top: 10px;
+	padding: 10px 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-bottom a{
+	color: rgb(153, 153, 153);
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	white-space: nowrap;
+	padding: 10px 0px;
+	text-decoration: none;
+	font-size: .8rem;
 }
